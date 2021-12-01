@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.css" />
+    <title>TRAVELLO</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <section class="main">
+        <div class="container">
+          <div class="main__header-wrp">
+            <div class="logo">
+              <img src="img/logo.png" alt="logo" />
+            </div>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item"><a class="main__a" href="#">Home</a></li>
+                <li class="menu__item"><a data-goto=".about" class="main__a menu__link" href="#">About us</a></li>
+                <li class="menu__item"><a data-goto=".curated" class="main__a menu__link" href="#">Populer Destination</a></li>
+                <li class="menu__item"><a data-goto=".flash" class="main__a menu__link" href="#">Tour Packege</a></li>
+                <li class="menu__item"><a data-goto=".sendform" class="main__a menu__link" href="#">Contact</a></li>
+              </ul>
+            </nav>
+          <!-- burger -->
+          <div class="icon nav-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <!-- burger -->
+
+          <!-- menu burger -->
+          <div class="menu-w">
+            <nav class="menu2">
+              <ul class="menu2__list2">
+                <li class="menu2__item2"><a href="#">Home</a></li>
+                <li class="menu2__item2"><a href="#" data-goto=".about" class="menu__link">About us</a></li>
+                <li class="menu2__item2"><a href="#" data-goto=".curated" class="menu__link">Populer Destination</a></li>
+                <li class="menu2__item2"><a href="#" data-goto=".flash" class="menu__link">Tour Packege</a></li>
+                <li class="menu2__item2"><a href="#" data-goto=".sendform" class="menu__link">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="underlay"></div>
+        <!-- menu burger -->
+          </div>
+          <img class="main__title" src="img/main_text.png" alt="text" />
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about__img-inputs-wrp">
+          <div class="about__inputs-wrp">
+            <input
+              type="text"
+              placeholder="Where to?"
+              class="about__input-items"
+            />
+            <input type="text" placeholder="When?" class="about__input-items" />
+            <input
+              type="text"
+              placeholder="Travel type"
+              class="about__input-items"
+            />
+            <button type="button">Discover now</button>
+          </div>
+          <img src="img/dots1.png" alt="dots" />
+        </div>
+        <div class="container">
+          <div class="about__content-wrp">
+            <div class="about__img-wrp">
+              <img class="about__dots" src="img/dots2.png" alt="dots" />
+              <img class="about__pagoda" src="img/img-pagoda.jpg" alt="pagoda" />
+              <img class="about__round" src="img/round.png" alt="round" />
+              <div class="about__square"></div>
+            </div>
+            <div class="about__text-wrp">
+              <h2 class="about__title">Learn More About Travello</h2>
+              <p class="about__text">
+                For those who like traveling with friends or family, we offer
+                group tours to Europe and Asia. You can either gather your own
+                group up to 12 members or join one of the groups that we form for
+                you and other tourists. Contact us for more details today!
+              </p>
+              <button type="button" class="about__button">Plan My Trip</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="curated" id="curated">
+        <div class="container">
+          <div class="curated__top-content-wrp">
+            <div class="curated__top-left">
+              <span class="curated__sub-title"
+                >Place & Cities Must Visit This Summer</span>
+              <h2 class="curated__title">Curated For You</h2>
+            </div>
+            <button type="button" class="curated__button">
+              More Cureted for You
+            </button>
+          </div>
+        </div>
+         <!-- Slider main container -->
+         <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img class="slider-img" src="img/slide1.1.jpg" alt="city" />
+              <div class="slider-content-wrp">
+
+              </div>
+              <div class="slider-cont-top">
+                <div class="slider-cont-text">
+                  <p class="slider-city">Zanzibar</p>
+                  <p class="slider-country">Europe, Greece</p>
+                </div>
+                <img class="slider-stars" src="img/stars.png" alt="stars" />
+              </div>
+              <div class="slider-cont-bottom">
+                <div class="slider-bottom-cont-wrp">
+                  <img
+                    class="slider-users"
+                    src="img/slider-icon1.svg"
+                    alt="users"
+                  />
+                  <span class="sdlider-count">2</span>
+                  <img
+                    class="slider-calendar"
+                    src="img/slider-icon2.svg"
+                    alt="calendar"
+                  />
+                  <span class="slider-days">7 Days</span>
+                </div>
+                <span class="slider-price">$2,550</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img class="slider-img" src="img/slide1.2.jpg" alt="city" />
+              <div class="slider-cont-top">
+                <div class="slider-cont-text">
+                  <p class="slider-city">Paris</p>
+                  <p class="slider-country">Europe, France</p>
+                </div>
+                <img class="slider-stars" src="img/stars.png" alt="stars" />
+              </div>
+              <div class="slider-cont-bottom">
+                <div class="slider-bottom-cont-wrp">
+                  <img
+                    class="slider-users"
+                    src="img/slider-icon1.svg"
+                    alt="users"
+                  />
+                  <span class="sdlider-count">2</span>
+                  <img
+                    class="slider-calendar"
+                    src="img/slider-icon2.svg"
+                    alt="calendar"
+                  />
+                  <span class="slider-days">7 Days</span>
+                </div>
+                <span class="slider-price">$2,300</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img class="slider-img" src="img/slide1.3.jpg" alt="city" />
+              <div class="slider-cont-top">
+                <div class="slider-cont-text">
+                  <p class="slider-city">London</p>
+                  <p class="slider-country">Europe, England</p>
+                </div>
+                <img class="slider-stars" src="img/stars.png" alt="stars" />
+              </div>
+              <div class="slider-cont-bottom">
+                <div class="slider-bottom-cont-wrp">
+                  <img
+                    class="slider-users"
+                    src="img/slider-icon1.svg"
+                    alt="users"
+                  />
+                  <span class="sdlider-count">2</span>
+                  <img
+                    class="slider-calendar"
+                    src="img/slider-icon2.svg"
+                    alt="calendar"
+                  />
+                  <span class="slider-days">7 Days</span>
+                </div>
+                <span class="slider-price">$2,400</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- If we need navigation buttons -->
+        </div>
+        <div class="slider-arrows-wrp">
+          <div class="slider-arrow-right">
+              <img src="img/arrow-left.svg" alt="arrow">
+          </div>
+          <div class="slider-arrow-left">
+              <img src="img/arrow-right.svg" alt="arrow">
+          </div>
+       </div>
+      </section>
+
+      <section class="flash" id="flash">
+        <div class="container">
+          <div class="flash__top-wrp">
+            <h2>Flash Deals</h2>
+            <button>More Flash Deals</button>
+          </div>
+        </div>
+    <!-- Slider main container -->
+      <div class="swiper-container2">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img class="slider2-img" src="img/slide2.1.jpg" alt="city">
+            <div class="slider2-cont-wrp">
+              <div class="slider-time-wrp">
+                <img src="img/clock.svg" alt="clock">
+                <span>23:49:38</span>
+              </div>
+              <p class="slider2-title">
+                Discover the Switzerland
+                in uncompromising
+                Luxury
+              </p>
+              <span class="slider2-subtitle">Per Person, 3 Nights</span>
+              <span class="slider2-price">$1,730</span>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img class="slider2-img" src="img/slide2.2.jpg" alt="city">
+            <div class="slider2-cont-wrp">
+              <div class="slider-time-wrp">
+                <img src="img/clock.svg" alt="clock">
+                <span>23:49:38</span>
+              </div>
+              <p class="slider2-title">
+                Discover the Egypt
+                in uncompromising
+                Luxury
+              </p>
+              <span class="slider2-subtitle">Per Person, 3 Nights</span>
+              <span class="slider2-price">$1,580</span>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img class="slider2-img" src="img/slide2.3.jpg" alt="city">
+            <div class="slider2-cont-wrp">
+              <div class="slider-time-wrp">
+                <img src="img/clock.svg" alt="clock">
+                <span>23:49:38</span>
+              </div>
+              <p class="slider2-title">
+                Discover the Paris
+                in uncompromising
+                Luxury
+              </p>
+              <span class="slider2-subtitle">Per Person, 3 Nights</span>
+              <span class="slider2-price">$1,300</span>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img class="slider2-img" src="img/slide2.4.jpg" alt="city">
+            <div class="slider2-cont-wrp">
+              <div class="slider-time-wrp">
+                <img src="img/clock.svg" alt="clock">
+                <span>23:49:38</span>
+              </div>
+              <p class="slider2-title">
+                Discover the Sidney
+                in uncompromising
+                Luxury
+              </p>
+              <span class="slider2-subtitle">Per Person, 3 Nights</span>
+              <span class="slider2-price">$1,820</span>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img class="slider2-img" src="img/slide2.5.jpg" alt="city">
+            <div class="slider2-cont-wrp">
+              <div class="slider-time-wrp">
+                <img src="img/clock.svg" alt="clock">
+                <span>23:49:38</span>
+              </div>
+              <p class="slider2-title">
+                Discover the Madrid
+                in uncompromising
+                Luxury
+              </p>
+              <span class="slider2-subtitle">Per Person, 3 Nights</span>
+              <span class="slider2-price">$1,400</span>
+            </div>
+          </div>
+      </section>
+
+      <section class="sendform" id="sendform">
+        <div class="_cont">
+          <div class="sendform__content-w">
+            <div class="sendform__text">
+              <h2 class="sendform__title">Feel free to drop a line</h2>
+              <ul>
+                <li>Upperlevel, Overseas Passenger Terminal</li>
+                <li>The Rocks, Sydney 2000</li>
+                <li>Tel: +62 500 800 123</li>
+                <li>Email: testmail@yourdomain.com</li>
+              </ul>
+            </div>
+            <div class="sendform__form-w">
+              <form class="sendform__form">
+
+                <label for="name">First name</label>
+                <input type="text" id="name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email">
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject">
+
+                <label for="message">Your Message</label>
+                <textarea name="message" id="message"></textarea>
+                <button>SEND</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="logos" id="logos">
+        <div class="logos__container">
+          <div class="logos__icons-w">
+            <div class="logos__icon"><img src="img/icon1.png" alt=""></div>
+            <div class="logos__icon"><img src="img/icon2.png" alt=""></div>
+            <div class="logos__icon"><img src="img/icon3.png" alt=""></div>
+            <div class="logos__icon"><img src="img/icon4.png" alt=""></div>
+            <div class="logos__icon"><img src="img/icon5.png" alt=""></div>
+            <div class="logos__icon"><img src="img/icon6.png" alt=""></div>
+          </div>
+        </div>
+
+      </section>
+
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__blocks-w">
+
+            <div class="footer__block">
+              <div class="footer__title">Call us</div>
+              <ul>
+                <li>+6-345-3456-233</li>
+                <li>travello@gmail.com</li>
+              </ul>
+              <div class="footer__icons-block">
+                <img src="img/foot-i1.svg" alt="">
+                <img src="img/foot-i2.svg" alt="">
+                <img src="img/foot-i3.svg" alt="">
+              </div>
+            </div>
+
+            <div class="footer__block">
+              <div class="footer__title">Support</div>
+              <ul>
+                <li>Customer Support</li>
+                <li>Pricvacy Policy</li>
+                <li>Contact Channels</li>
+              </ul>
+            </div>
+
+            <div class="footer__block">
+              <div class="footer__title">Pay Safely with us</div>
+              <ul>
+                <li>The payment encrypted and transmitted security with an SSL Protocol</li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="copyright">
+            <p>© 2021 CREATIVE PEOPLE. ALL RIGHTS RESERVED</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+
+
+    <script src="js/swiper-bundle.js"></script>
+      <script src="js/index.js"></script>
+  </body>
+</html>

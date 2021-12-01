@@ -1,0 +1,149 @@
+// slider 1====================================================================
+.swiper-container {
+    position: absolute;
+    max-width: 1320px;
+    //max-width: 90%;
+    width: 100%;
+    margin: 60px 0px 0px 0px;
+    transform: translateX(6%);
+    @media (max-width: 958px) {
+        transform: translateX(0);
+    }
+}
+.swiper-slide {
+    max-width: 420px;
+    //max-width: 90%;
+}
+.slider-img {
+    border-radius: 4px;
+    width: 100%;
+}
+.slider-cont-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 0 30px;
+    @media (max-width: 1080px) {
+        margin-top: 15px;
+    }
+}
+.slider-city {
+    font-size: 36px;
+    font-family: 'Conv_SofiaProBold';
+    color: #130F40;
+    @media (max-width: 768px) {
+        font-size: 25px;
+    }
+}
+.slider-country {
+    font-size: 16px;
+    color: #7A7A7A;
+    transform: translateY(20px);
+}
+.slider-stars {
+    height: 100%;
+    margin-bottom: 8px;
+}
+.slider-cont-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 0 30px;
+}
+.slider-price {
+    font-family: 'Conv_SofiaProBold';
+    font-size: 24px;
+    color: #009D98;
+}
+.sdlider-count, .slider-days {
+    color: #009D98;
+}
+.slider-users {
+    margin-right: 10px;
+}
+.slider-calendar {
+    margin-left: 30px;
+    margin-right: 17px;
+}
+.slider-arrows-wrp {
+    max-width: 130px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    @media (max-width: 1080px) {
+        margin-top: 50px;
+    }
+    @media (max-width: 650px) {
+        margin-top: 30px;
+    }
+}
+.slider-arrow-right, .slider-arrow-left {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #009D98;
+    box-shadow: 0px 15px 25px rgba(0, 157, 152, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color .3s;
+        &:hover {
+            background-color: #056562;
+        }
+}
+
+
+
+.swiper-container2 {
+    margin-top: 50px;
+}
+.slider2-cont-wrp {
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.slider2-img {
+    width: 100%;
+}
+.slider-time-wrp {
+    display: flex;
+    align-items: center;
+    span {
+        font-size: 24px;
+        color: #7A7A7A;
+    }
+    img {
+        margin-top: 5px;
+        display: block;
+        margin-right: 22px;
+    }
+}
+.slider2-title {
+    font-size: 24px;
+    line-height: 140%;
+    font-family: 'Conv_SofiaProBold';
+    max-width: 215px;
+    margin-top: 23px;
+    @media (max-width: 768px) {
+        font-size: 18px;
+    }
+}
+.slider2-subtitle {
+    font-size: 16px;
+    color: #7A7A7A;
+    display: block;
+    margin-top: 20px;
+}
+.slider2-price {
+    display: block;
+    margin-top: 30px;
+    font-size: 36px;
+    color: #009D98;
+    font-family: 'Conv_SofiaProBold';
+    @media (max-width: 768px) {
+        font-size: 20px;
+    }
+}

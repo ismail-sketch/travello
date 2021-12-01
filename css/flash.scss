@@ -1,0 +1,39 @@
+// SECTION FLASH======================================
+.flash {
+    min-height: 727px;
+    width: 100%;
+    padding: 50px 0px 40px 0px;
+    //display: none;
+    &__top-wrp {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @media (max-width: 435px) {
+            display: block;
+        }
+    }
+    h2 {
+        font-size: 40px;
+        color: #130F40;
+        font-family: 'Conv_SofiaProBold';
+    }
+    button {
+        width: 168px;
+        height: 48px;
+        padding: 8px 20px;
+        border: none;
+        font-size: 16px;
+        background-color: #009D98;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 4px;
+        box-shadow: 0px 15px 25px rgba(0, 157, 152, 0.25);
+        transition: background-color .3s;
+            &:hover {
+                background-color: #056562;
+            }
+            @media (max-width: 435px) {
+                margin-top: 20px;
+            }
+    }
+}

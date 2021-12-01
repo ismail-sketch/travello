@@ -1,0 +1,127 @@
+
+.sendform {
+    min-height: 718px;
+    width: 100%;
+    background-image: url(../img/form_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 74px;
+    padding-bottom: 70px;
+    //display: none;
+
+    &__content-w {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @media (max-width: 720px) {
+            flex-direction: column;
+        }
+    }
+    &__title {
+        font-family: 'Conv_SofiaProRegular';
+        font-weight: 700;
+        font-size: 40px;
+        color: #ffffff;
+        line-height: 1.25;
+        margin-bottom: 30px;
+        @media (max-width: 452px) {
+            font-size: 30px;
+        }
+        @media (max-width: 345px) {
+            font-size: 28px;
+        }
+    }
+    ul {
+        font-size: 16px;
+        color: #ffffff;
+        list-style: none;
+    }
+    li:not(:last-child) {
+        margin-bottom: 35px;
+    }
+
+    &__text {
+        padding-right: 15px;
+        @media (max-width: 720px) {
+            padding-right: 0;
+            margin-bottom: 30px;
+            width: 70%;
+        }
+        @media (max-width: 624px) {
+            width: 100%;
+        }
+    }
+
+    &__form-w {
+        margin-bottom: -27px;
+        width: 50%;
+        @media (max-width: 720px) {
+            width: 70%;
+        }
+        @media (max-width: 624px) {
+            width: 100%;
+        }
+        label {
+            line-height: 1.6;
+            font-size: 16px;
+            margin-bottom: 15px;
+            color: #fff;
+            display: block;
+            &:not(:first-child) {
+                margin-top: 27px;
+                @media (max-width: 852px) {
+                    margin-top: 15px;
+                }
+            }
+        }
+        input, textarea {
+            display: block;
+            width: 450px;
+            height: 46px;
+            border-radius: 4px;
+            border: none;
+            outline: none;
+            background-color: #00000086;
+            padding: 5px;
+            &:focus {
+                background-color: #fff;
+            }
+            @media (max-width: 950px) {
+                width: 100%;
+            }
+        }
+        textarea {
+            resize: none;
+            height: 120px;
+        }
+        button {
+            width: 140px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+            background-color: #009D98;
+            color: #fff;
+            border-radius: 4px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            transition: background .3s;
+            box-shadow: none;
+            &:hover {
+                background-color: #04625f;
+            }
+            @media (max-width: 624px) {
+                width: 100%;
+            }
+        }
+    }
+
+}
+._cont {
+    max-width: 1010px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}

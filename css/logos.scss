@@ -1,0 +1,39 @@
+
+.logos {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    //display: none;
+    &__container {
+        max-width: 1120px;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+    &__icons-w {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        @media (max-width: 780px) {
+            justify-content: center;
+        }
+
+    }
+    &__icon {
+        @media (max-width: 780px) {
+            flex: 0 0 33.333%;
+            display: flex;
+            justify-content: center;
+        }
+        @media (max-width: 535px) {
+            flex: 0 0 50%;
+        }
+        img {
+            @media (max-width: 780px) {
+                margin-bottom: 30px;
+            }
+            @media (max-width: 400px) {
+                width: 65%;
+            }
+        }
+    }
+}
